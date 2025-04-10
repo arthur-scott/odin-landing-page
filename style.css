@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    margin:0px;
+    padding:0px;
+    gap:20px;
+}
+
+.top-quarter {
+    background-color: rgb(96, 96, 129);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px;
+    gap: 30px;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 40%;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.top-image {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.second-quarter {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.second-quarter .title {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.third-quarter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.quote {
+    max-width: 70%;
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.quote-name {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    width: 700px;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.fourth-quarter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.box {
+    width: 70%;
+    background-color: #3882F6;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+button {
+    padding: 4px;
+    width: 120px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    outline: solid white;
+}
+
+li {
+    list-style-type: none;
+}
